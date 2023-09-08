@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const BACK_END_URL = 'http://localhost:5000';
-const BACK_END_URL = "https://drivencracy-api-8gv2.onrender.com";
+const BACK_END_URL = import.meta.env.VITE_API_URL;
 
 /**
  * Lista todas as enquetes
